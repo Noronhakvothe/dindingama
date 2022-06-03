@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+:root{
+    --secondaryColor: #2e948a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondaryColor);
+    padding: 1rem 3rem;
+    width: 100%;
+}
+Ul, article, main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+}
+main {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+
+article > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-article{
+    justify-content: center;
+
+}
+
+.first-image {
+    height: 25rem;
+    width: 25rem;
+}
+

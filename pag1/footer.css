@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+:root{
+    --secondaryColor: #2e948a;
+}
+
+Ul, article, main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+}
+main {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+
+article > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-article{
+    justify-content: center;
+
+}
+
+.first-image {
+    height: 25rem;
+    width: 25rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondaryColor);
+    padding: 1rem 3rem;
+    height: 100%;
+    width: 100%;
+}
+.ulfoo{
+    flex-direction: column;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+.ultbt{
+    width: 11rem;
+    height: 2.5rem;
+    left: 14rem;
+    top: 32rem;
+    color: #ffffff;
+    background-color:var(--secondaryColor);
+    border-radius: 4rem;
+    border: 2px solid #ffffff;
+    margin-top: 0.5rem;
+    margin-right: 15rem;
+
+}
+.humb{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 00.5rem;
+}

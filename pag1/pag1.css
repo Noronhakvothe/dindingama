@@ -1,0 +1,226 @@
+* {
+    font-family: 'ubuntu';
+    font-size: normal;
+    padding: 0rem;
+    margin: 0rem;
+    margin-right: 0rem;
+    padding-right: 0rem;
+    max-width: 90rem;
+}
+
+:root {
+    --secondaryColor: #2e948a;
+    --maincolortext: #FF4081;
+    --fontverde: #009688;
+    --textsimple: #555555;
+}
+
+.titulo {
+    color: var(--maincolortext);
+    font-size: 4rem;
+}
+
+.centraltext {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 28rem;
+    height: 13rem;
+    left: 12rem;
+    top: 15rem;
+    margin-top: 8rem;
+    margin-bottom: 12.1rem;
+}
+
+button {
+    width: 11rem;
+    height: 2.5rem;
+    left: 14rem;
+    top: 32rem;
+    color: var(--maincolortext);
+    background-color: white;
+    border-radius: 4rem;
+    border: 2px solid #FF4081;
+    margin-top: 1.8rem;
+    margin-right: 15rem;
+}
+
+aside {
+    margin-left: 2rem;
+    margin-right: 16rem;
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+    display: flex;
+}
+
+.centraltext>div>div>p {
+    color: var(--textsimple);
+    width: 28rem;
+    height: 4rem;
+    left: 12rem;
+    top: 29rem;
+    font-weight: 23rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.txt1 {
+    display: flex;
+    text-align: justify;
+}
+
+.first-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+    padding: 1rem 3rem;
+    height: 100%;
+    width: 100%;  
+}
+
+.imgpqn--b2 {
+    width: 11.5rem;
+    height: 16rem;
+}
+
+.txt--b2 {
+    color: var(--textsimple);
+    display: flex;
+    text-align: center;
+    width: 18rem;
+}
+
+.card--b2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bt--card {
+    width: 11rem;
+    height: 2rem;
+    color: white;
+    background-color: var(--maincolortext);
+    border-radius: 4rem;
+    border: 2px solid #FF4081;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+}
+.card__title3{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--fontverde);
+    width: 30rem;
+    height: 3rem;
+    top:104rem;
+    left: 7rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 4.5rem;
+}
+.minibloco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.minibloco1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5rem;
+}
+.card__text3{
+    display:flex;
+    width: 22rem;
+    height: 4.5rem;
+    left: 45rem;
+    top: 115rem;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+.cardname{
+    display: flex;
+    width:8rem;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+.blocao{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card__title4{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--fontverde);
+    width: 35rem;
+    height: 3rem;
+    top:104rem;
+    left: 7rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 4.5rem;
+    
+}
+.card--b4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.endcardin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.endcard{
+    background-color: #F7F7F7;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 3rem;
+}
+.quadrado{
+    width: 19rem;
+    height: 12rem;
+    left: 58rem;
+    top: 134rem;
+    background-color:#C4C4C4;
+}
+.caixascard{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:flex-start;
+    gap: 1vw;
+    
+}
+h5{
+    width:20rem;
+    height: 1rem;
+    left: 58rem;
+    top: 134rem;
+    color: var(--fontverde);
+
+}
+.txtend{
+    width: 20rem;
+    height: 9rem;
+    
+}
